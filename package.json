@@ -1,0 +1,32 @@
+{
+    "name": "@hwholland/keygen",
+    "version": "0.1.0",
+    "description": "micro-service application that increments a string (counter) in Redis",
+    "main": "index.js",
+    "dependencies": {
+        "body-parser": "~1.18.3",
+        "jsdoc": "~3.5.5",
+        "path": "~0.12.7",
+        "raven": "^2.6.2",
+        "redis": "~2.8.0"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "test": "node test/getkey.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hwholland/keygen.git"
+    },
+    "author": {
+        "name": "Harrison Holland",
+        "email": "harrisonholland@gmail.com"
+    },
+    "bugs": {
+        "url": "git+https://github.com/hwholland/keygen.git"
+    },
+    "homepage": "git+https://github.com/hwholland/keygen.git#README",
+    "devDependencies": {
+        "jsdoc": "~3.5.5"
+    }
+}
